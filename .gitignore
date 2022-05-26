@@ -21,3 +21,6 @@ General/
 
 # spyder
 .spyproject/
+
+# python
+__pycache__
