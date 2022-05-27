@@ -19,7 +19,7 @@ class Material:
         self._E_modulus = E_modulus
         
     def __str__(self):
-        return f'Material("{self._material_type}", "{self._E_modulus}")'
+        return f'Material("{self._material_type}", "{self._E_modulus:.3e}")'
  
 #-----------------------------------------------------------
     

@@ -10,3 +10,4 @@ from finite_elements.material import Material
 
 beam = Beam(1, Material('wood', 1.9e20))
 
+print(beam)

@@ -5,8 +5,8 @@ Created on Tue May 24 13:53:48 2022
 @author: peter
 """
 
-from material import Material
-from node import Node
+from .material import Material
+from .node import Node
 
 class Beam:
     
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     
     beam = Beam(1.2, m1)
 
-    beam.length = -2.0
+    beam.length = 2.0
     
     print(beam.length)
     

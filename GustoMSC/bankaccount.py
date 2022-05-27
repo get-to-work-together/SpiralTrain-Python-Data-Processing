@@ -35,8 +35,6 @@ class BankAccount:
         
 # --------------------------------------
 
-
-
 if __name__ == '__main__':
 
     acc1 = BankAccount('NL86INGB0564654689', 'Peter')

@@ -74,8 +74,6 @@ settings = {'factor': 5, 'x':0.9}
 f(**settings)
 
 
-
-
 #%%
 
 def calc(n1, n2):
