@@ -27,6 +27,30 @@ class BankAccount:
                                                            self.__account_holder,
                                                            self.__balance))
 
+    @property
+    def balance(self):
+        return self.__balance
+    
+    @balance.setter
+    def balance(self, amount):
+        self.__balance = amount
+        
+    @staticmethod
+    def add_numbers(*numbers):
+        return sum(numbers)
+
+    @staticmethod
+    def build_account1(amount):
+        acc = BankAccount('00', 'Unknown')
+        acc.balance = amount
+        return acc
+    
+    @classmethod
+    def build_account2(cls, amount):
+        acc = cls('00', 'Unknown')
+        acc.balance = amount
+        return acc
+    
     def __repr__(self):
         return f'BankAcount("{self.__iban}", "{self.__account_holder}")'
         
@@ -52,4 +76,12 @@ if __name__ == '__main__':
 
     acc1.info()
     acc2.info()
+    
+    print( acc1.balance )
+    
+    acc1.balance = 1000000
+    print( acc1.balance )
+    
+    acc3 = BankAccount.build_account(500)
+    print( acc3 )
     

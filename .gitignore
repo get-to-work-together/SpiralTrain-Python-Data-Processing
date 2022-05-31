@@ -1,6 +1,5 @@
-# Directories
-Algemeen/
-General/
+# Marked Directories prefixed with _
+_*/
 
 # R studio
 .RData
