@@ -29,7 +29,14 @@ print( np.outer(v1, v2) )
 
 #%%
 
-m1 = np.array([[1, 0],
+v1 = np.array( [1, 2, 3] )
+v2 = np.array( [0, 1, 2] )
+
+print( np.cross(v1, v2) )
+
+#%%
+
+m1 = np.array([[2, 0],
                [0, 1]])
 
 m2 = np.array([[4, 1],

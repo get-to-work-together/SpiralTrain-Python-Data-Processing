@@ -6,6 +6,7 @@ Created on Wed Jun  1 10:42:32 2022
 @author: peter
 """
 
+
 #%%
 # Variables
 
@@ -14,7 +15,6 @@ print(name)
 print(type(name))
 
 number_of_cars = 10   # Python PEP8
-
 
 
 #%%
@@ -43,6 +43,7 @@ print(c1)
 print(type(c1))
 print((0 + 1j) ** 2)
 
+
 #%%
 # Decimal
 
@@ -69,7 +70,8 @@ print( 'floored division',  n1 // n2   )
 print( 'modulo',            n1 % n2   )
 print( 'power',             n1 ** n2   )
 
-print('divmod',             divmod(27, 6) )
+print( 'divmod',            divmod(n1, n2) )
+
 
 #%%
 # String
@@ -96,12 +98,13 @@ line 3''' )
 print( s1 + s2 )
 
 temperature = 20
-#print( 'Temperature is ' + temperature )
+
 print( 'Temperature is ' + str(temperature) )
 print( 'Temperature is', temperature )
 
 print( s1 + s1 )
 print( 10 * s1 )
+
 
 #%%
 # string formating
@@ -116,9 +119,10 @@ print(  f'Pi is {math.pi}')
 print(  f'Pi is {math.pi:.4f}')
 print(  f'Pi is {math.pi:10.4f}')
 
-print(  f'Temperature is >{temperature:20}<'   )
-print(  f'Temperature is >{temperature:<20}<'   )
-print(  f'Temperature is >{temperature:^20}<'   )
+print(  f'Temperature is |{temperature:20}|'   )
+print(  f'Temperature is |{temperature:<20}|'   )
+print(  f'Temperature is |{temperature:^20}|'   )
+
 
 #%%
 # String methods
@@ -152,7 +156,7 @@ print( 'chaining',     text.replace('monkey',
                            .replace('tree', 
                                     'bush') )
 
-print( 'in',  'tree' in text )
+print( 'in',           'tree' in text )
 
 #%%
 # Indexing and slicing
@@ -168,6 +172,7 @@ print( text[-2] )
 print( text[3:6] )
 print( text[-3:] )
 print( text[:5] )
+
 
 #%%
 # Input
@@ -193,6 +198,7 @@ r = float(input('Give me the radius of a circle: '))
 area = math.pi * r**2
 print(f'The area is {area:.3f}')
 
+
 #%%
 # Random
 
@@ -207,6 +213,7 @@ print(secret_number)
 print(   random.random()  )
 
 print([random.randint(1, 100) for _ in range(20)])
+
 
 #%%
 # Conditional
@@ -234,6 +241,7 @@ is_larger = n > n1
 is_smaller = n < n2
 
 in_between = is_larger and is_smaller
+
 
 #%% 
 # Lists
