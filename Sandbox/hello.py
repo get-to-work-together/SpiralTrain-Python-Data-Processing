@@ -84,6 +84,22 @@ d3 = d1 + d2
 
 print(d3)
 
+#%% math
+
+import math
+
+print(math.pi)
+print(math.sin(math.pi * 0.5))
+
+
+from math import pi
+print(pi)
+
+import math as m
+print(m.pi)
+
+
+
 
 
 
