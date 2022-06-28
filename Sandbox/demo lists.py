@@ -31,3 +31,17 @@ print(shopping_list)
 
 shopping_list.sort()
 print(shopping_list)
+
+shopping_list.sort(reverse=True)
+print(shopping_list)
+
+shopping_list.reverse()
+print(shopping_list)
+
+shopping_list.sort(key=len)
+print(shopping_list)
+
+
+
+
+

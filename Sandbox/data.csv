@@ -1,6 +1,11 @@
-﻿id;name;department
-1;Peter;A
-2;Erik;A
-3;Estella;A
-4;Trystan;B
-5;Simon;B
+ID;Name;Points;Department
+1;Peter;3;EX
+2;Maria;45;EQ
+3;Anand;77;ENG
+4;Luyuan;3;EQ
+5;Steven;4;EQ
+6;Christian;34;ENG
+7;Mark;23;ENG
+8;Leander;45;EQ
+9;Vincenzo;56;ENG
+10;Tim;34;EQ
